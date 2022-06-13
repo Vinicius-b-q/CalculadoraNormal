@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'cursiva', sans-serif;
+}
+h1 {
+  color: azure;
+  background-color: black;
+  margin: 10px;
+  padding: 10px;
+  font-style: italic;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+body {
+  background-color: rgb(136, 14, 14);
+}
+.previa {
+  height: 20px;
+  background-color: rgb(7, 7, 7);
+  color: rgb(255, 255, 255);
+  text-align: right;
+  font-size: 20px;
+  word-wrap: break-word;
+}
+.calculator {
+  width: 250px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  padding: 10px;
+  background-color: black;
+}
+
+table td {
+  display: inline-flex;
+}
+
+.btn {
+  margin: 3px;
+  width: 50px;
+  border-radius: 30px;
+  height: 40px;
+  cursor: pointer;
+  border: none;
+  background-color: rgb(63, 55, 55);
+  color: white;
+  font-size: 16px;
+  transition: all 300ms ease-in-out;
+}
+
+.btn:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+.ac {
+  background-color: rgb(175, 78, 39);
+}
+
+.ac:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(163, 86, 55);
+}
+
+.especial {
+  background-color: rgb(163, 86, 55);
+}
+
+.especial:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(163, 86, 55);
+}
+
+.igual {
+  background-color: rgb(175, 78, 39);
+}
+.igual:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(163, 86, 55);
+}
+
+.result {
+  height: 80px;
+  background-color: rgb(7, 7, 7);
+  color: rgb(255, 255, 255);
+  text-align: right;
+  font-size: 35px;
+  word-wrap: break-word;
+  border-bottom: 1px solid white;
+}
